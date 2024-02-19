@@ -5,7 +5,7 @@ import java.text.SimpleDateFormat
 import java.util.regex.Pattern
 
 fun main() {
-    val folderPath = "src/main/inputFiles" // Замените на путь к вашей папке
+    val folderPath = "src/main/inputFiles" // Путь к папке с входными данными
     val folder = File(folderPath)
     val logFile = File(folder, "rename_log.txt")
 
